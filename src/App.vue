@@ -7,6 +7,9 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Color from 'color';
+
+console.log(Color('#aaaaaa').isDark());
 
 export default {
   name: 'App',
